@@ -1,9 +1,44 @@
-# Getting Started with Create React App
+# Family Module Paywall
+The aim of this project is to re-build [this](https://logmycare.co.uk/pricing/family/) page in ReactJS.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Pre-requisites
 
-## Available Scripts
+### NodeJS
+NodeJS is a JavaScript "runtime" that let's you run JavaScript outside of a browser.
+We've developed out backend and API completely in Node, but it's also an essential tool for front-end developers.
+To install it, go to [Node JS](https://nodejs.org/en/) and download the "Current" distribution.
 
+To check that the installation worked, try opening up a terminal and typing `node`.
+This should open up an interactive JavaScript session, just like running `python` on the terminal.
+
+### Yarn
+Yarn is a package manager for Node and JavaScript. It makes it super easy to download open-source packages, similar to `pip` in python.
+
+Try running this command to install it: `curl -o- -L https://yarnpkg.com/install.sh | bash`
+Otherwise, follow the installation instructions [here](https://classic.yarnpkg.com/en/docs/install#mac-stable)
+
+### VS Code
+Everyone has different code editors, but I'd recommend downloading [VS Code](https://code.visualstudio.com/) if you haven't already.
+
+### Git
+You'll also need to install a version control tool called [Git](https://git-scm.com/download/mac).
+
+### GitHub
+Set up a [GitHub account](https://github.com/) and let me know what your username is. I'll add you as a contributor to the project, so you can push any changes you've made.
+
+
+## Getting Started
+Once you're all set up you can download the code in this repository and use yarn to install all the dependencies:
+```
+git clone https://github.com/adamhurst/lmc-family-paywall.git
+cd lmc-family-paywall
+yarn install
+yarn start
+```
+
+You're all set to start developing! Open up the project in VS Code and any changes you make to the code in the `./src` folder will be reflected immediately in the browser window that just appeared.
+
+## Important Scripts
 In the project directory, you can run:
 
 ### `yarn start`
@@ -40,6 +75,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
