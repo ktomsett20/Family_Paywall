@@ -1,48 +1,67 @@
-import logo from './logo.svg';
+
 import './App.css';
-//import HeaderSection from './components/HeaderSection'
-import familyHeroImage from './family-module-hero-image.png';
-import iconFamilyImage from './icon-family.png';
-import phoneTrioImage from './family-module-phones-x3.png';
 
-import numBoxOne from './Frame-1.png';
-import preferencesFamily from './rhs2_pref_Family_Mod.png';
-import numBoxTwo from './Frame-2.png';
-import recordsFamily from './records_Family_Mod.png';
-import numBoxThree from './Frame-3.png';
-import timelineFamily from './timeline_Family_Module.png';
-
-import bestBenefits from './benefits_best.png';
-import contactBenefits from './benefits_contact.png';
-import surveyBenefits from './benefits_survey.png';
-import cameraBenefits from './benefits_camera.png';
-import meetingBenefits from './benefits_meeting.png';
-import happinessBenefits from './benefits_happiness.png';
-
-import testimonalQuoteOpen from './lhs_quotemarks_testimonial.png';
-import testimonalQuoteClose from './rhs_quotemarks_testimonial.png';
-
-import featuresIconPhoto from './features_icon_photo.png';
-import featuresCarelinePhone from './features_careline_phone.png';
-import featuresDataToggle from './features_data_toggle.png';
-import featuresIconToggle from './features_icon_toggle.png';
-
-import featuresIconInvitation from './features_invitation_icon.png';
-import featuresInvite from './features_invite_image.png';
+import Hero from "./components/Hero";
+import WhatIsFamilyModule from "./components/WhatIsFamilyModule";
+import PhoneTrio from "./components/PhoneTrio";
+import HowFamilyWorks from "./components/HowFamilyWorks";
+import Benefits from "./components/Benefits";
+import Testimonial1 from "./components/Testimonial1";
+import Features from "./components/Features";
+import Cost from "./components/Cost";
+import Testimonial2 from "./components/Testimonial2";
+import DataSecurity from "./components/DataSecurity";
 
 
-import costBillFamily from './cost_bill_family.png';
-import costBillCareservice from './cost_bill_careservice.png';
+
+
+// import familyHeroImage from '../Images/family-module-hero-image.png';
+
+// import iconFamilyImage from '../Images/icon-family.png';
+
+// import phoneTrioImage from '../Images/family-module-phones-x3.png';
+
+// import numBoxOne from '../Images/Frame-1.png';
+// import preferencesFamily from '../Images/rhs2_pref_Family_Mod.png';
+// import numBoxTwo from '../Images/Frame-2.png';
+// import recordsFamily from '../Images/records_Family_Mod.png';
+// import numBoxThree from '../Images/Frame-3.png';
+// import timelineFamily from '../Images/timeline_Family_Module.png';
+
+// import bestBenefits from '../Images/benefits_best.png';
+// import contactBenefits from '../Images/benefits_contact.png';
+// import surveyBenefits from '../Images/benefits_survey.png';
+// import cameraBenefits from '../Images/benefits_camera.png';
+// import meetingBenefits from '../Images/benefits_meeting.png';
+// import happinessBenefits from '../Images/benefits_happiness.png';
+
+// import testimonalQuoteOpen from '../Images/lhs_quotemarks_testimonial.png';
+// import testimonalQuoteClose from '../Images/rhs_quotemarks_testimonial.png';
+
+// import featuresIconPhoto from '../Images/features_icon_photo.png';
+// import featuresCarelinePhone from '../Images/features_careline_phone.png';
+// import featuresDataToggle from '../Images/features_data_toggle.png';
+// import featuresIconToggle from '../Images/features_icon_toggle.png';
+// import featuresIconInvitation from '../Images/features_invitation_icon.png';
+// import featuresInvite from '../Images/features_invite_image.png';
+
+
+// import costBillFamily from '../Images/cost_bill_family.png';
+// import costBillCareservice from '../Images/cost_bill_careservice.png';
+
 // import testimonialOne from './testimonial_background_1.png';
 
-import dataSecurePadlock from './data_secure_padlock.png';
+// import dataSecurePadlock from '../Images/data_secure_padlock.png';
 
-// logo.svg
+
 
 function App() {
   return (
 <div>
-        <div className="flex_container_hero"> 
+
+        <Hero/>   
+
+        {/* <div className="flex_container_hero"> 
             <div className="lhs_hero">
 
             <div className="first_heading_hero">
@@ -72,9 +91,11 @@ function App() {
                 <img className='familyHeroImage' src={familyHeroImage} alt="heroImage"/>
             </div>
 
-        </div>
+        </div> */}
 
-        <div className="flex_container_what_is_family_module">     
+        <WhatIsFamilyModule/>
+
+        {/* <div className="flex_container_what_is_family_module">     
         
             <div>
                 <img className="iconFamilyImage" src={iconFamilyImage} alt='familyIcon' />
@@ -98,16 +119,20 @@ function App() {
                 with the well-being, health and mood of their loved ones in your care.</p>
             </div>
 
-        </div>
+        </div> */}
 
-        <div className="flex_container_phone_trio">
+        <PhoneTrio/>
+
+        {/* <div className="flex_container_phone_trio">
             <div>
                 <img src={phoneTrioImage} alt="trioPhoneImage"/>
             </div>
 
-        </div> 
+        </div>  */}
 
-        <div className="flex_container_how_family_works">
+        <HowFamilyWorks/>
+
+        {/* <div className="flex_container_how_family_works">
 
             <div className="how_family_works_title">
                 <h2>Here’s how the Family Module works</h2>          
@@ -127,7 +152,7 @@ function App() {
                         <img className='familyNumBox' src={numBoxOne} alt="numberOne"/>
                         <h3 className="header_box">Set up your preferences & invite family members</h3>
                     </div>
-                    
+
                     <p className="p_box">Care Managers first run through a simple set up to get started. 
                     Choose how logs will be viewed by family members, select which 
                     logs you’d like them to have access to and set up your billing options.</p>
@@ -183,9 +208,12 @@ function App() {
                     <img src={timelineFamily} alt="familyHowItWorksTimelineImage"/>
                 </div>
             </div>  
-        </div>
+        </div> */}
 
-        <div className="flex_container_benefits">
+
+        <Benefits/>
+
+        {/* <div className="flex_container_benefits">
 
             <div className="benefits_title">
                 <h2>What are the benefits of a family care platform?</h2>          
@@ -231,11 +259,13 @@ function App() {
                 </div>
         
             </div>
-        </div>
+        </div> */}
+
+        <Testimonial1/>
        
-        <div className="flex_container_testimonial testimonial_1">
+        {/* <div className="flex_container_testimonial testimonial_1">
             <div> 
-                {/* <img className="testimonial_1" src={testimonialOne} alt='testimonialBackgroundOne'/> */}
+              
             </div>
         
             <div className="testimonial_content">
@@ -268,9 +298,11 @@ function App() {
                 
 
             </div>
-        </div>
+        </div> */}
 
-        <div className="flex_container_features">
+        <Features/>
+
+        {/* <div className="flex_container_features">
 
             <div className="features_title">
                 <h2>What features does Family include?</h2>          
@@ -351,9 +383,11 @@ function App() {
                 </div>
             </div>
 
-        </div>
+        </div> */}
 
-        <div className="flex_container_cost">
+        <Cost/>
+
+        {/* <div className="flex_container_cost">
 
             <div className="cost_content">
                 
@@ -422,13 +456,11 @@ function App() {
 
             </div>
 
-        </div>
+        </div> */}
 
-        <div className="flex_container_testimonial testimonial_2">
-            
-            {/* <div> 
-                <img className="testimonial_1" src={testimonialOne} alt='testimonialBackgroundOne'/>
-            </div> */}
+        <Testimonial2/>
+
+        {/* <div className="flex_container_testimonial testimonial_2">
         
             <div className="testimonial_content">
                 
@@ -459,9 +491,11 @@ function App() {
                 
 
             </div>
-        </div>
+        </div> */}
 
-        <div className="flex_container_data_secure">
+        <DataSecurity/>
+
+        {/* <div className="flex_container_data_secure">
 
             <div className="lhs_box_data_secure">
             
@@ -484,9 +518,7 @@ function App() {
                 <img src={dataSecurePadlock} alt="dataSecuirtyImage"/>
             </div>
 
-           
-
-        </div>     
+        </div>      */}
 
 
 
