@@ -79,18 +79,20 @@ function App() {
             <div>
                 <img className="iconFamilyImage" src={iconFamilyImage} alt='familyIcon' />
             </div>
+            
             <div>
                 <h2 className="what_is_family_title"> What is the Family Module?</h2>
             </div>
 
-            <div>
-                <p className="what_is_family_content">Family is our first module designed to help people outside 
+            <div className="what_is_family_content">
+                <p>Family is our first module designed to help people outside 
                 of your care service to stay in touch with their loved ones. 
                 It simplifies the way that care notes and care records are 
                 viewed by giving family and friends access to your service users’ 
-                care information in a simplified timeline in the Family App.</p>
-                
-                <p className="what_is_family_content"> By signing up to the Family module you are providing added 
+                care information in a simplified timeline in the Family App.
+                <br></br>
+                <br></br>
+                By signing up to the Family module you are providing added 
                 value to families and friends of your residents by giving them 
                 access to their very own care platform. Keep them up-to-date 
                 with the well-being, health and mood of their loved ones in your care.</p>
@@ -121,9 +123,11 @@ function App() {
             <div className="how_family_works_rows">
 
                 <div className="lhs_box">
-                    <img className='familyNumBox' src={numBoxOne} alt="numberOne"/>
-                    <h3 className="header_box">Set up your preferences & invite family members</h3>
-                
+                    <div>
+                        <img className='familyNumBox' src={numBoxOne} alt="numberOne"/>
+                        <h3 className="header_box">Set up your preferences & invite family members</h3>
+                    </div>
+                    
                     <p className="p_box">Care Managers first run through a simple set up to get started. 
                     Choose how logs will be viewed by family members, select which 
                     logs you’d like them to have access to and set up your billing options.</p>

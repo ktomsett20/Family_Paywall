@@ -24,6 +24,9 @@
     flex-direction: row;
     justify-content: center;
     background-color:#F9C174;
+
+    /* background-image: url(https://lmc-marketing-public.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/10/26204932/family-module-hero-background.png);
+    background-size: cover; */
     padding: 50px;
     /*width: 1094px;
     height: 686px*/
@@ -135,10 +138,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items:center;
+
     padding: 50px;
     /*background-color:#1e0ff0;*/
-    /*border-style: solid; 
-    border-color: blue;*/
+    border-style: solid; 
+    border-color: blue;
    
 }
 
@@ -169,23 +174,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    margin-left: auto;
-    margin-right: auto;
-    /*justify-content: space-around;*/
-
+    width:60%;
+    text-align:center;
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
-    color: #222222;
-    text-align: center;
-    
     font-size: 15px;
-    /* width: 850px;
-    height: 150px; */
-
-    /*border-style: solid; 
-    border-color: red;*/
-}
+    color: #222222;
+    
+    border-style: solid; 
+    border-color: red;
+} 
 
 .flex_container_phone_trio{ 
     display: flex;
@@ -218,8 +216,8 @@
     /*margin-left: auto;
     margin-right: auto;
     justify-content: center;*/
-    /* border-style: solid; 
-    border-color: yellowgreen; */
+    border-style: solid; 
+    border-color: yellowgreen;
 
   
 }
@@ -232,8 +230,8 @@
     background-color: #fff;
     color: #222222;
     /*justify-content: space-around;*/
-    /* border-style: solid; 
-    border-color: red; */
+    border-style: solid; 
+    border-color: red;
    
 }
 
@@ -254,8 +252,8 @@
     
     /*justify-content: space-around;
     justify-content: center;*/
-    /* border-style: solid; 
-    border-color: green; */
+    border-style: solid; 
+    border-color: green;
 }
 
 
@@ -267,18 +265,19 @@
     /*margin-left: auto;
     margin-right: auto;
     justify-content: center;*/
-    /* border-style: solid; 
-    border-color: blue; */
+    border-style: solid; 
+    border-color: blue;
 }
 
 .lhs_box {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap:wrap;
     /*justify-content: space-around;*/
     background-color: #ffffff;
     border-radius: 30px 30px 30px 30px;
     width: 400px;
-    height: 200px;
+    /*height: 200px; */
     border: 5px solid rgb(252, 252, 252);
     box-shadow: rgb(153,153,153,0.25);
     padding-top: 30px!important;
@@ -293,6 +292,8 @@
     border: 5px solid rgb(252, 252, 252);
     padding: 10px;
     margin: 50px;*/
+    border-style: solid; 
+    border-color: rgb(255, 0, 200);
 }
 
 .lhs_box_none{
@@ -300,9 +301,9 @@
     flex-direction: column;
     padding: 30px;
     margin-left: 100px;
-    /*margin-right: auto;
+    /*margin-right: auto;*/
     border-style: solid; 
-    border-color: red;*/
+    border-color: red;
 
 
     /*justify-content: center;*/
@@ -325,11 +326,11 @@
     padding-bottom: 30px!important;
     padding-left: 30px!important;
 
-    /*
-    box-sizing: border-box;
-    justify-content: space-around;
+    
+    /* box-sizing: border-box;
+    justify-content: space-around; */
     border-style: solid; 
-    border-color: red;*/
+    border-color: red;
     
 }
 
@@ -341,9 +342,9 @@
     padding: 30px;
     /*border-style: solid; 
     border-color: red;
-    justify-content: space-around;
+    justify-content: space-around;*/
     border-style: solid; 
-    border-color: red;*/
+    border-color: red;
 }
 
 .header_box{
@@ -373,8 +374,12 @@
     text-align: left;
     width: 25px;
     height: 30px;
+    display:inline;
     /*display: block;
     margin-left: left;*/
+
+    border-style: solid; 
+    border-color: red;
 
 }
 
