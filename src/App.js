@@ -11,7 +11,7 @@ import Features from "./components/Features";
 import Cost from "./components/Cost";
 import Testimonial2 from "./components/Testimonial2";
 import DataSecurity from "./components/DataSecurity";
-
+import FiveStarSupport from "./components/FiveStarSupport";
 
 
 
@@ -519,6 +519,8 @@ function App() {
             </div>
 
         </div>      */}
+
+        <FiveStarSupport/>
 
 
 
