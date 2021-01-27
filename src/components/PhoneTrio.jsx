@@ -6,7 +6,7 @@ function PhoneTrio (){
     return(
         <div className="flex_container_phone_trio">
             <div>
-                <img src={phoneTrioImage} alt="trioPhoneImage"/>
+                <img className="phone_trio_img" src={phoneTrioImage} alt="trioPhoneImage"/>
             </div>
 
         </div> 

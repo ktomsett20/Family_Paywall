@@ -19,22 +19,24 @@ function Features () {
             <div className="features_rows">
 
                 <div className="features_box">
-                    <div className="icon_title_box_align">
-                        <img className='features_icon_Box' src={featuresIconPhoto} alt="photoIconImage"/>
-                        <h3 className="features_header_box">Care timeline and photos</h3>
-                    </div>
-                    <div className="features_p_box">
-                        <p>Families and friends can log in via the Log 
-                        my Care app and see a daily timeline of important care related to tasks, 
-                        food, activities and health visits. This gives family members a better 
-                        overall picture of how their loved one’s day has been.
-                        <br></br>
-                        <br></br>
-                        Family members are also able to see photos 
-                        that have been uploaded by your care staff. Whether it’s a day out to the 
-                        beach, a painting they’ve done, or a simple smile, families can see all 
-                        of it straight from the app.</p>
-                    </div>
+                    <div className="icon_title_box">
+                        <div className="icon_title_box_align">
+                            <img className='features_icon_Box' src={featuresIconPhoto} alt="photoIconImage"/>
+                            <h3 className="features_header_box">Care timeline and photos</h3>
+                        </div>
+                        <div className="features_p_box">
+                            <p>Families and friends can log in via the Log 
+                            my Care app and see a daily timeline of important care related to tasks, 
+                            food, activities and health visits. This gives family members a better 
+                            overall picture of how their loved one’s day has been.
+                            <br></br>
+                            <br></br>
+                            Family members are also able to see photos 
+                            that have been uploaded by your care staff. Whether it’s a day out to the 
+                            beach, a painting they’ve done, or a simple smile, families can see all 
+                            of it straight from the app.</p>
+                        </div>
+                    </div>    
                 </div>
             
                 <div className="features_rhs_box_none">
@@ -50,43 +52,47 @@ function Features () {
                 </div>
                 
                 <div className="features_box">
-                    <div className="icon_title_box_align">
-                        <img className='features_icon_Box' src={featuresIconToggle} alt="featuresSwitch"/>
-                        <h3 className="features_header_box">Control what you show with data toggles</h3>
-                    </div>
+                    <div className="icon_title_box">
+                        <div className="icon_title_box_align">
+                            <img className='features_icon_Box' src={featuresIconToggle} alt="featuresSwitch"/>
+                            <h3 className="features_header_box">Control what you show with data toggles</h3>
+                        </div>
 
-                    <div className="features_p_box">
-                        <p >You can control exactly what care information gets 
-                        shared with family members using our awesome data toggles feature. Hide whole 
-                        log categories such as incidents and handovers, or choose to only hide some types 
-                        of care.
-                        <br></br>
-                        <br></br>
-                        We love knowing what our granny is up to during 
-                        the day, but knowing when she last used the loo is information we could do 
-                        without! That’s why you can turn the ‘personal care routines’ option off to 
-                        prevent family members from viewing unnecessary notes.</p>
+                        <div className="features_p_box">
+                            <p >You can control exactly what care information gets 
+                            shared with family members using our awesome data toggles feature. Hide whole 
+                            log categories such as incidents and handovers, or choose to only hide some types 
+                            of care.
+                            <br></br>
+                            <br></br>
+                            We love knowing what our granny is up to during 
+                            the day, but knowing when she last used the loo is information we could do 
+                            without! That’s why you can turn the ‘personal care routines’ option off to 
+                            prevent family members from viewing unnecessary notes.</p>
+                        </div>
                     </div>
                 </div>
             </div> 
 
-            <div className="features_rows">
+            <div className="features_rows_3">
                 <div className="features_box">
-                    <div className="icon_title_box_align">
-                        <img className='features_icon_Box' src={featuresIconInvitation} alt="inviteIcon"/>
-                        <h3 className="features_header_box">Simple family invitations</h3>
-                    </div>
+                    <div className="icon_title_box">
+                        <div className="icon_title_box_align">
+                            <img className='features_icon_Box' src={featuresIconInvitation} alt="inviteIcon"/>
+                            <h3 className="features_header_box">Simple family invitations</h3>
+                        </div>
 
-                    <div className="features_p_box">
-                        <p>You can invite family members to use the Family App 
-                        right from the Care Office. No picking up the phone or spending time chasing family 
-                        members. You can go straight to your service users’ profile and invite family 
-                        members right from their list of important people. That’s it, the rest is managed by us.
-                        <br></br>
-                        <br></br>    
-                        Families automatically receive an email with simple 
-                        directions to get set up with the Family App and your work is done! Super simple 
-                        and fast, because we know you’ve got enough on your plate already.</p>
+                        <div className="features_p_box">
+                            <p>You can invite family members to use the Family App 
+                            right from the Care Office. No picking up the phone or spending time chasing family 
+                            members. You can go straight to your service users’ profile and invite family 
+                            members right from their list of important people. That’s it, the rest is managed by us.
+                            <br></br>
+                            <br></br>    
+                            Families automatically receive an email with simple 
+                            directions to get set up with the Family App and your work is done! Super simple 
+                            and fast, because we know you’ve got enough on your plate already.</p>
+                        </div>
                     </div>
                 </div>
                 
