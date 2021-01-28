@@ -2,7 +2,7 @@
 
 import familyHeroImage from '../Images/family-module-hero-image.png';
 
-
+//
 function Hero (){
 
     return (
@@ -23,7 +23,7 @@ function Hero (){
                             keep family and friends of your clients up-to-date 
                             with their care, well-being and health.</h4>
                     </div>
-                    <div className="hero_buttons">  
+                    <div className="hero_buttons"> 
                         <div>
                             <button className="btn1_hero">Activate your account today</button>
                         </div>

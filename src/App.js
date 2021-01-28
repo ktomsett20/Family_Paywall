@@ -13,6 +13,9 @@ import Testimonial2 from "./components/Testimonial2";
 import DataSecurity from "./components/DataSecurity";
 import FiveStarSupport from "./components/FiveStarSupport";
 
+//This is the webapp for the Family module for LMC. 
+//The structure is broken out into each component 
+// of the sections within the webpage. 
 
 function App() {
   return (
@@ -29,107 +32,6 @@ function App() {
         <Testimonial2/>
         <DataSecurity/>
         <FiveStarSupport/>
-        <div>
-
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-        <p> EXTRA SPACE</p>
-
-
-        </div>
 
 </div>
 
