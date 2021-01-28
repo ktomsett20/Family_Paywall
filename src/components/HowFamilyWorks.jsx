@@ -10,7 +10,7 @@ import timelineFamily from '../Images/timeline_Family_Module.png';
 function HowFamilyWorks (){ 
 
     return(
-        <div className="flex_container_how_family_works">
+        <div className="flex_container_how_family_works hfw_background">
 
             <div className="how_family_works_title">
                 <h2>Here’s how the Family Module works</h2>          

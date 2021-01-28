@@ -6,7 +6,7 @@ function FiveStarSupport () {
     
     return(
         <div className="flex_container_five_star_support">
-
+            <div className="five_star_support_content">
                 <div>
                     <h2 className="five_star_support_title"> 5-star support as you'd expect</h2>
                 </div>
@@ -15,7 +15,7 @@ function FiveStarSupport () {
                     <img className="five_star_support_google_image" src={fivestarsupportgoogle} alt='google5Stars' />
                 </div>
 
-                <div className="five_star_support_content">
+                <div className="five_star_support_p">
                     <p>Not to brag, but our Customer Success team 
                         has been called “absolutely fantastic”, “superb”, 
                         and “first class” – and that’s just the tip of 
@@ -38,14 +38,14 @@ function FiveStarSupport () {
                 
                     <div className="five_star_buttons">
                         <div>
-                            <button className="btn1_five_star">Activate your account today</button>
+                            <button className="btn1_five_star">I need to create an account</button>
                         </div>
 
                         <div>
                             <button className="btn2_five_star">I have an account - sign me in</button>
                         </div>
                     </div>
-                    
+            </div>   
 
         </div>
 

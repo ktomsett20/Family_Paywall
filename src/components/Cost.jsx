@@ -1,6 +1,8 @@
 
 import costBillFamily from '../Images/cost_bill_family.png';
 import costBillCareservice from '../Images/cost_bill_careservice.png';
+import costMostPopularIcon from '../Images/cost_most_popular_option_icon.png';
+
 
 function Cost () {
 
@@ -72,10 +74,13 @@ function Cost () {
                     </ul>
                 </div>
 
+                <div className="cost_most_popular_icon">
+                    <img src={costMostPopularIcon} alt="mostPopularOpinionImage" />
+                </div>
+
             </div>
 
         </div>
-
 
 
     )

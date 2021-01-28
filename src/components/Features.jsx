@@ -10,7 +10,7 @@ import featuresInvite from '../Images/features_invite_image.png';
 function Features () {
     
     return(
-        <div className="flex_container_features">
+        <div className='flex_container_features features_background'>
 
             <div className="features_title">
                 <h2>What features does Family include?</h2>          
