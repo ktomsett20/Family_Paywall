@@ -3,6 +3,10 @@ import costBillFamily from '../Images/cost_bill_family.png';
 import costBillCareservice from '../Images/cost_bill_careservice.png';
 import costMostPopularIcon from '../Images/cost_most_popular_option_icon.png';
 
+// This is the eighth component goes under 'Features' 
+// Contains a header, text then two containers both holding 
+// images, header, text and a list
+// Notes seperate image to the right 'Our most popular option'
 
 function Cost () {
 

@@ -13,14 +13,14 @@ import Testimonial2 from "./components/Testimonial2";
 import DataSecurity from "./components/DataSecurity";
 import FiveStarSupport from "./components/FiveStarSupport";
 
-//This is the webapp for the Family module for LMC. 
-//The structure is broken out into each component 
-// of the sections within the webpage. 
+//This is for the webapp for the 'Family' module for Log My Care. 
+//The structure is broken out into each component of the 
+// sections within the webpage. 
+// Note footer and header menu needs to be added 
 
 function App() {
   return (
 <div>
-
         <Hero/>   
         <WhatIsFamilyModule/>
         <PhoneTrio/>

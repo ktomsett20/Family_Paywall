@@ -6,6 +6,12 @@ import featuresIconToggle from '../Images/features_icon_toggle.png';
 import featuresIconInvitation from '../Images/features_invitation_icon.png';
 import featuresInvite from '../Images/features_invite_image.png';
 
+// This is the seventh conponent and goes under 'Testimonial1'
+// It contains a header at the top, then has multiple images and 
+// containers of content aligned in columns down the page, and 
+// two buttons at the bottom
+// Note the light grey background colour 
+
 
 function Features () {
     

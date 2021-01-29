@@ -2,6 +2,11 @@
 import testimonalQuoteOpen from '../Images/lhs_quotemarks_testimonial.png';
 import testimonalQuoteClose from '../Images/rhs_quotemarks_testimonial.png';
 
+// This is component ninth and goes under 'Cost'
+// and is the second testimonial on page
+// Contains background image, and two quote marks images and text
+// Note paralax to be added 
+
 function Testimonial2 () {
 
     return(

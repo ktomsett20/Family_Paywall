@@ -1,6 +1,8 @@
 
 import fivestarsupportgoogle from '../Images/5_star_support_google.png';
 
+// This is the eleventh component and goes under 'DataSecurity'
+// Container a header, and image, text and two buttons at the bottom
 
 function FiveStarSupport () {
     

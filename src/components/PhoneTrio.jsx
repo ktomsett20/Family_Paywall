@@ -1,6 +1,10 @@
 
 import phoneTrioImage from '../Images/family-module-phones-x3.png';
 
+// This conponent contains only the image of the three phones 
+// and goes below the 'What is the family module' section
+// Note the grey background starting mid image.
+
 function PhoneTrio (){
 
     return(

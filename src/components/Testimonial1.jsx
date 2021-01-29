@@ -2,14 +2,16 @@
 import testimonalQuoteOpen from '../Images/lhs_quotemarks_testimonial.png';
 import testimonalQuoteClose from '../Images/rhs_quotemarks_testimonial.png';
 
+// This is the sixth component and goes under 'Benefits' 
+// and first testimonial on page
+// Contains background image, and two quote marks images and text
+// Note paralax to be added 
+
 function Testimonial1 (){
     
     return(
 
         <div className="flex_container_testimonial testimonial_1">
-            <div> 
-                {/* <img className="testimonial_1" src={testimonialOne} alt='testimonialBackgroundOne'/> */}
-            </div>
         
             <div className="testimonial_content">
 

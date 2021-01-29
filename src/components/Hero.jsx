@@ -2,7 +2,9 @@
 
 import familyHeroImage from '../Images/family-module-hero-image.png';
 
-//
+//This is the first section of the webapp under the header menu 
+// and contains headings, an image and two buttons 
+
 function Hero (){
 
     return (

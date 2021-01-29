@@ -1,6 +1,11 @@
 
 import iconFamilyImage from '../Images/icon-family.png';
 
+// This is the second section and contains the family icon
+// the section title and text. 
+// Note the image of three phones is within its own component 'PhoneTrio'.
+
+
 function WhatIsFamilyModule () {
 
     return(

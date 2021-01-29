@@ -1,6 +1,9 @@
 
 import dataSecurePadlock from '../Images/data_secure_padlock.png';
 
+// This is the tenth component and goes under 'Testimonial2'
+// Container a header, container with text and an image 
+
 function DataSecurity () {
     return(
         <div className="flex_container_data_secure">

@@ -6,6 +6,10 @@ import recordsFamily from '../Images/records_Family_Mod.png';
 import numBoxThree from '../Images/Frame-3.png';
 import timelineFamily from '../Images/timeline_Family_Module.png';
 
+// This is the fourth component and goes under 'what is the family module' 
+// It contains a header and text at the top, then has multiple 
+// images and containers of content aligned in columns down the page 
+// Note the light grey background colour 
 
 function HowFamilyWorks (){ 
 

@@ -6,6 +6,9 @@ import cameraBenefits from '../Images/benefits_camera.png';
 import meetingBenefits from '../Images/benefits_meeting.png';
 import happinessBenefits from '../Images/benefits_happiness.png';
 
+// This is the fith component and goes under 'How Family works'
+// It containers a header, and 6 containers which each have relivant 
+// icon and accompying text for benefit 
 
 function Benefits (){
 
