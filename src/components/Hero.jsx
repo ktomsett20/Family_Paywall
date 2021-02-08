@@ -10,14 +10,11 @@ function Hero (){
     return (
         <div className="flex_container_hero"> 
             <div className="hero_content">
-                
                 <div className="lhs_hero">
-
                     <div className="first_heading_hero">
                         <h1>Keeping clients & loved ones connected 
                         has never been easier with our care platform</h1> 
                     </div>
-
                     <div className="second_heading_hero">
                         <h4>It’s more important than ever to keep your 
                             residents close to their families. 
@@ -34,9 +31,7 @@ function Hero (){
                             <button className="btn2_hero">I have an account - sign me in</button>
                         </div>
                     </div>
-
                 </div>
-
                 <div className="familyHeroImage">
                     <img  src={familyHeroImage} alt="heroImage"/>
                 </div>

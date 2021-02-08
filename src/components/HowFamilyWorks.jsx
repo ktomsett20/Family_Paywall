@@ -15,28 +15,23 @@ function HowFamilyWorks (){
 
     return(
         <div className="flex_container_how_family_works hfw_background">
-
             <div className="how_family_works_title">
                 <h2>Here’s how the Family Module works</h2>          
             </div>
-
             <div className="how_family_works_content">
                 <p>We’ve made the Family Module as simple as possible for 
                 everyone to use, while still providing family members
                 with all the most important health and care information 
                 about their loved one.</p>
             </div> 
-
             <div className="how_family_works_rows">
-
                 <div className="lhs_box">
                     <div className="icon_title_box">
                         <div className="icon_title_box_align">
                             <img className='familyNumBox' src={numBoxOne} alt="numberOne"/>
                             <h3 className="header_box">Set up your preferences & invite family members</h3>
                         </div>
-                        
-                        <div className="p_box">
+                        <div className="p_box_left">
                             <p>Care Managers first run through a simple set up to get started. 
                             Choose how logs will be viewed by family members, select which 
                             logs you’d like them to have access to and set up your billing options.
@@ -48,27 +43,21 @@ function HowFamilyWorks (){
                         </div>
                     </div>
                 </div>
-
                 <div className="rhs_box_none">
                     <img src={preferencesFamily} alt="familyHowItWorksPreferenceImage"/>
                 </div>
-
             </div>     
-
             <div className="how_family_works_rows">
-
                 <div className="lhs_box_none">
                     <img src={recordsFamily}  alt="familyHowItWorksRecordsImage"/>
                 </div>
-                
                 <div className="rhs_box">
                     <div className="icon_title_box">
                         <div className="icon_title_box_align">
                             <img className='familyNumBox' src={numBoxTwo} alt="numberTwo"/>
                             <h3 className="header_box">Carers record care just like normal</h3>
                         </div>
-
-                        <div className="p_box">
+                        <div className="p_box_right">
                             <p>Your Carers go about their day as usual, logging care notes 
                             and tasks and doing what they do best. Carers have access 
                             to one extra log option called the ‘Family Update’, which 
@@ -82,7 +71,6 @@ function HowFamilyWorks (){
                     </div>    
                 </div>
             </div> 
-
             <div className="how_family_works_rows">
                 <div className="lhs_box">
                     <div className="icon_title_box">
@@ -90,8 +78,7 @@ function HowFamilyWorks (){
                             <img className='familyNumBox' src={numBoxThree} alt="numberThree"/>
                             <h3 className="header_box">Family members get a simplified timeline of their loved one’s care</h3>
                         </div>
-
-                        <div className="p_box">
+                        <div className="p_box_left">
                             <p>From their very own version of the Log my Care, called 
                             the Family App, famiies can access a timeline of all 
                             the care their loved one has received. It’s simplified 
@@ -105,7 +92,6 @@ function HowFamilyWorks (){
                         </div>
                     </div>    
                 </div>
-                
                 <div className="rhs_box_none">
                     <img src={timelineFamily} alt="familyHowItWorksTimelineImage"/>
                 </div>

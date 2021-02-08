@@ -14,13 +14,10 @@ function Benefits (){
 
     return(
         <div className="flex_container_benefits">
-
             <div className="benefits_title">
                 <h2>What are the benefits of a family care platform?</h2>          
             </div>
-
             <div className="flex_container_benefits_rows_and_columns">
-                
                 <div className="left_col">
                     <div className="benefits_column_box">
                         <img className="benefitsIcons" src={bestBenefits} alt="benefitsBestImage"/>
@@ -35,7 +32,6 @@ function Benefits (){
                             ones and boost morale.</p>
                     </div>
                 </div>
-
                 <div className="mid_col">
                     <div className="benefits_column_box">
                         <img className="benefitsIcons" src={surveyBenefits} alt="benefitsSurveyImage"/> 
@@ -48,7 +44,6 @@ function Benefits (){
                         <p>Share happy moments during care with attached photos.</p>
                     </div>
                 </div>
-
                 <div className="right_col">
                     <div className="benefits_column_box">
                         <img className="benefitsIcons" src={meetingBenefits} alt="benefitsMeetingImage"/> 
@@ -63,7 +58,6 @@ function Benefits (){
                             them in touch with their loved ones in your care.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     )
