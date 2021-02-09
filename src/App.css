@@ -14,7 +14,8 @@ p{
     background-color:#F9C174;
     padding: 50px;
     /* width: 100%; */
-    height: 712px;
+    /* height: 712px; */
+    height: auto;
     background-image: url(https://lmc-marketing-public.s3.eu-west-2.amazonaws.com/wp-content/uploads/2020/10/26204932/family-module-hero-background.png)!important;
     background-size: cover;
 }
@@ -23,10 +24,11 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 1080px;
+    max-width: 1080px;
+    width: 90%;
     /* height: 100%; */
     flex-wrap: wrap;
-    /* border: 3px solid green; */
+    border: 3px solid green;
 }
 
 .lhs_hero {
@@ -45,11 +47,10 @@ p{
     justify-content: flex-start;
     font-family: 'Open Sans', Helvetica, sans-serif;
     color:#ffffff;
-    /* width:100%; */
     text-align: left;
-    line-height: 2.2em;
-    font-size: 25px;
-
+    line-height: 2.4em;
+    font-size: 23px;
+    /* width:100%; */
     /* font-weight:lighter; */
     /* font-size: 1vw; */
     /* border: 3px solid rgb(132, 233, 17); */
@@ -61,12 +62,11 @@ p{
     justify-content: flex-start;
     font-family: 'Open Sans', Helvetica, sans-serif;
     color:#ffffff;
-    /* width:100%; */
     font-size: 20px;
     text-align: left;
     line-height: 1.7em;
-    
-    /* font-weight:500; */
+    font-weight:100;
+    /* width:100%; */
     /* font-size: 1vw; */
     /* border: 3px solid rgb(17, 49, 233);  */
 }
@@ -144,6 +144,7 @@ p{
     align-items:center;
     /* width:1080px; */
     padding: 50px;
+    height: auto;
     /* margin-left: auto;
     margin-right: auto; */
     /* border: 3px solid rgb(233, 42, 17); */
@@ -205,6 +206,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
     /* flex-direction: column; */
     /* justify-content: space-around;*/
     /*background-color:#1e0ff0;*/
@@ -256,12 +258,12 @@ p{
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: #222222;
     padding-top:40px;
-    font-weight: 100;
+    font-weight:100;
     font-size:21px; 
     max-width: 1080px;
-    width: 60vw;
+    width:60%;
+    /* width: 60vw; */
     /*justify-content: space-around;*/
-    
     /* border: 3px solid rgb(233, 103, 17); */
 }
 
@@ -271,21 +273,16 @@ p{
     text-align: center;
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: #222222;
-    /* margin-left: auto;
-    margin-right: auto; */
+    max-width: 1080px;
+    width: 73%;
     justify-content: space-around;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     font-weight:900;
     line-height: 1.7em;
-    
-    /* width: 850px;
-    height: 100px; */
-
-    max-width: 1080px;
-    width:80vw;
     padding-bottom: 20px;
-
+    /* margin-left: auto;
+    margin-right: auto; */
     /* border: 3px solid rgb(233, 17, 222); */
 }
 
@@ -299,7 +296,7 @@ p{
     padding-top: 20px;
     /*justify-content: center;*/
 
-    /* border: 3px solid rgb(17, 21, 233); */
+    border: 3px solid rgb(17, 21, 233);
 }
 
 .lhs_box {
@@ -308,16 +305,16 @@ p{
     background-color: #ffffff;
     border-radius: 30px 30px 30px 30px;
     width: 400px;
-    /* height: 21vh; */
-    /* height: 30vh; */
-    /* height: auto; */
     min-height: 270px;
     border: 5px solid rgb(252, 252, 252);
     box-shadow: 0px 2px 4px rgb(153 153 153 / 25%);
     padding: 30px 30px 20px 30px; 
+     /* height: 21vh; */
+    /* height: 30vh; */
+    /* height: auto; */
     /*justify-content: space-around;*/
     /* flex-direction: column; */
-    /* border: 3px solid rgb(233, 67, 17); */
+    border: 3px solid rgb(233, 67, 17);
 }
 
 
@@ -892,7 +889,7 @@ p{
     padding-bottom: 60px;
     /* padding: 50px; */
     /* height:1500px; */
-    border: 3px solid rgb(43, 198, 226);
+    /* border: 3px solid rgb(43, 198, 226); */
 }
 
 .cost_content{
@@ -905,7 +902,7 @@ p{
     margin-left:auto;
     margin-right: auto;
 
-    border: 3px solid blueviolet;
+    /* border: 3px solid blueviolet; */
 }
 
 .cost_title{
@@ -921,7 +918,7 @@ p{
     padding-top:20px;
     padding-bottom:-10px;
 
-    border: 3px solid rgb(58, 226, 43);
+    /* border: 3px solid rgb(58, 226, 43); */
 }
 
 .cost_title_2{
@@ -933,7 +930,7 @@ p{
     text-align: center;
     font-weight: 800;
     padding-bottom: 10px; 
-    border: 3px solid rgb(43, 226, 113);
+    /* border: 3px solid rgb(43, 226, 113); */
 } 
 
 .cost_p{
@@ -945,7 +942,7 @@ p{
     font-size: 16px;
     font-weight:700;
     line-height: 1.7em; 
-    border: 3px solid rgb(198, 226, 43);
+    /* border: 3px solid rgb(198, 226, 43); */
 }
 
 .cost_rows{
@@ -958,7 +955,7 @@ p{
     justify-content: center;
     margin-left:auto;
     margin-right: auto;
-    border: 3px solid rgb(226, 80, 43);
+    /* border: 3px solid rgb(226, 80, 43); */
 }
 
 .cost_left_col{
@@ -968,23 +965,18 @@ p{
     font-family: 'Open Sans', Helvetica, sans-serif;
     background-color: #ffffff;
     border-radius: 30px 30px 30px 30px;
-    
     width: 50%;
-
-
     border: 5px solid rgb(252, 252, 252);
     box-shadow: rgb(153,153,153,0.25);
     padding: 30px 30px 30px 30px;
-    border-style: solid; 
-    border-color: #F9C174;
-    
+    border: 1px solid #F9C174; 
     /* margin-right:30px; */
     margin-left: 40px;
-    
+        /*ad margin-left in when right icon appears, remove on smaller res.*/
     /* width: 500px; */
     /* min-height: 620px; */
     /* height: 680px; */
-    border: 3px solid rgb(43, 61, 226);
+    /* border: 3px solid rgb(43, 61, 226); */
 }
 
 .cost_bill_family_image{
@@ -1036,7 +1028,7 @@ p{
     font-size: 15px;
     font-weight:700;
     margin-top:-5px;
-    /* line-height: 1.7em; */
+    line-height: 1.5em;
 }
 
 .cost_col_p_bold{
@@ -1045,8 +1037,8 @@ p{
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: #333333;
     text-align: left;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight:bolder;
     margin-top:15px;
 }
 
@@ -1056,8 +1048,12 @@ p{
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: #666666;
     text-align: left;
-    font-size: 21px;
-    margin-left:-10px;
+    font-size: 14px;
+    margin-left:-20px;
+    font-weight:800;
+    line-height: 1.9em;
+    
+    
 }
 
 .cost_right_col{
@@ -1066,20 +1062,16 @@ p{
     font-family: 'Open Sans', Helvetica, sans-serif;
     background-color: #ffffff;
     border-radius: 30px 30px 30px 30px;
-    
     width: 50%;
-
     border: 5px solid rgb(252, 252, 252);
     box-shadow: rgb(153,153,153,0.25);
     padding: 30px 30px 30px 30px;
-    border-style: solid; 
-    border-color: #F9C174;
+    border: 2px solid #F9C174; 
     margin-left:30px;
-    
     /* display: flex; */
     /* width: 600px;
     height: 900px; */
-    border: 3px solid rgb(101, 226, 43);
+    /* border: 3px solid rgb(101, 226, 43); */
 }
 
 .cost_bill_careservice_image{
@@ -1100,6 +1092,8 @@ p{
     align-items: center;
 }
 
+/* Data Security*/
+
 .flex_container_data_secure{
     display: flex;
     justify-content: center; 
@@ -1116,7 +1110,9 @@ p{
     justify-content: space-around;
     align-items: center;
     background-color:  #F9C174;
-    width: 60%;
+    max-width: 1080px;
+    width: 80%;
+    /* border: 3px solid rgb(101, 226, 43); */
 }
 
 .lhs_box_data_secure{
@@ -1142,9 +1138,11 @@ p{
     justify-content: space-around;
     background-color: #ffffff;
     border-radius: 30px 30px 30px 30px;
-    width: 564px;
-    height: 100px;
-    font-weight: 500px;
+    /* width: 564px; */
+    /* height: 153px; */
+    height: 80%;
+    width: 65%;
+    font-weight:700;
     border: 5px solid rgb(252, 252, 252);
     box-shadow: rgb(153,153,153,0.25);
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -1153,15 +1151,21 @@ p{
     font-size: 15px;
     text-align: left;
     padding: 30px 30px 30px 30px;  
+    line-height: 1.7em;
 }
    
 .rhs_box_data_secure { 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width:20%;
-    margin-left: 10px;
+    height: 306px;
+    width: 240px;
+    /* justify-content: space-around; */
+    /* width:25%; */
+    /* margin-left: 10px; */
+    /* margin-right: 60px; */
 }
+
+/*five-star support*/
 
 .flex_container_five_star_support{
     display: flex;
@@ -1172,12 +1176,15 @@ p{
 }
 
 .five_star_support_content{
-    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    max-width: 1080px;
+    width: 80%;
     padding-bottom: 50px;
+    padding-top: 20px;
+    /* border: 3px solid rgb(101, 226, 43); */
 }
 
 .five_star_support_title{
@@ -1186,9 +1193,10 @@ p{
     justify-content: center;
     align-items: center;
     font-family: 'Open Sans', Helvetica, sans-serif;
+    font-weight: 100;
     background-color: #fff;
     color: #222222;
-    font-size:34px;
+    font-size:28px;
     width: 100%;
     height: auto;
     margin-top:20px;
@@ -1197,30 +1205,32 @@ p{
 }
 
 .five_star_support_google_image{
-    width: 500px;
-    height: 98px;
+    width: 442px;
+    height: 99px;
     padding-right: 80px;
     /* width: 30vw; */
     /* width: 100%;
     height: 100%; */
-    /* margin-right: 200px; */
+    margin-right: 90px;
 }
 
 .five_star_support_p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width:60%;
+    max-width: 1080px;
+    width:98%;
     text-align:center;
     font-family: 'Open Sans', Helvetica, sans-serif;
     background-color: #fff;
     font-size: 15px;
     line-height: 1.7em;
     color: #333333;
-    font-weight: 700;
-    width: 50vw;
+    font-weight:700;
     padding-top: 20px;
     padding-bottom: 30px;
+    /* border: 3px solid rgb(101, 226, 43); */
+    /* width: 50vw; */
 }
 
 .five_star_buttons{
@@ -1228,7 +1238,8 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    max-width: 1080px;
+    width: 80%;
     /* height: 15vh; */
 }
 
@@ -1247,7 +1258,7 @@ p{
     margin-bottom: 10px;
     border-width: 1px;
     box-shadow: 0px 0px 8px rgba(34,34,34,0.2);
-    font-weight: 700px;
+    font-weight:900;
     /* width: 100%; */
     /* height:100%; */
 }
@@ -1264,11 +1275,11 @@ p{
     font-weight: 700;
     font-family: 'Open Sans', Helvetica, sans-serif;
     color:#222222;
-    font-weight: 600px;
     padding: 14px 36px 14px 28px;
     border-radius: 7px;
     box-shadow: 0px 0px 8px rgba(34,34,34,0.2); 
     margin-top: 10px;
+    font-weight: 900;
     /* width: 100%; */
 }
 
@@ -1285,7 +1296,6 @@ p{
         background-color: blue;
     }
   } */
-
 
 
   /* @media only screen and (max-width: 600px) {

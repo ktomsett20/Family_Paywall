@@ -30,8 +30,8 @@ function App() {
         <Features/>
         <Cost/>
         <Testimonial2/>
-        {/* <DataSecurity/>
-        <FiveStarSupport/> */}
+        <DataSecurity/>
+        <FiveStarSupport/>
 
 </div>
 
