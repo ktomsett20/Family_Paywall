@@ -28,7 +28,7 @@ p{
     width: 90%;
     /* height: 100%; */
     flex-wrap: wrap;
-    border: 3px solid green;
+    /* border: 3px solid green; */
 }
 
 .lhs_hero {
@@ -50,6 +50,7 @@ p{
     text-align: left;
     line-height: 2.4em;
     font-size: 23px;
+    /* width: 100%; */
     /* width:100%; */
     /* font-weight:lighter; */
     /* font-size: 1vw; */
@@ -70,8 +71,6 @@ p{
     /* font-size: 1vw; */
     /* border: 3px solid rgb(17, 49, 233);  */
 }
-
-
 
 .familyHeroImage{
     display:flex;
@@ -233,6 +232,14 @@ p{
     /* border: 3px solid rgb(103, 233, 17); */
 }
 
+.phone_trio_980_img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
 /* How family works  */
 
 .flex_container_how_family_works{ 
@@ -241,6 +248,7 @@ p{
     justify-content: space-evenly;
     align-items:center;
     padding-bottom: 30px; 
+    height: auto;
     /*justify-content: center;*/
     /* border: 3px solid rgb(103, 233, 17); */
 }
@@ -271,6 +279,7 @@ p{
     display: flex;
     flex-direction: row;
     text-align: center;
+   
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: #222222;
     max-width: 1080px;
@@ -291,12 +300,14 @@ p{
     flex-direction: row;
     justify-content: space-around;
     align-items:center;
+    /* flex-wrap: wrap; */
     max-width: 1080px;
     width: 80vw; 
+    height: auto;
     padding-top: 20px;
     /*justify-content: center;*/
 
-    border: 3px solid rgb(17, 21, 233);
+    /* border: 3px solid rgb(233, 17, 71); */
 }
 
 .lhs_box {
@@ -314,7 +325,7 @@ p{
     /* height: auto; */
     /*justify-content: space-around;*/
     /* flex-direction: column; */
-    border: 3px solid rgb(233, 67, 17);
+    /* border: 3px solid rgb(233, 67, 17); */
 }
 
 
@@ -328,6 +339,7 @@ p{
 
     margin-right: auto;
     margin-left: auto;
+    order: 1;
     
     /* flex-direction: column; */
     /* border: 3px solid rgb(85, 233, 17); */
@@ -344,6 +356,8 @@ p{
     border: 5px solid rgb(252, 252, 252);
     box-shadow: 0px 2px 4px rgb(153 153 153 / 25%);
     padding: 30px 30px 20px 30px; 
+    order: 2;
+
     /* flex-direction: column; */
     /*justify-content: space-around;*/
     /* border: 3px solid rgb(233, 17, 222); */
@@ -456,6 +470,7 @@ p{
     flex-direction: row;
     justify-content: space-evenly;
     align-self: center;
+    /* flex-wrap: wrap; */
     background-color:#F9C174;
     /* width: 80vw; */
     max-width: 1080px;
@@ -1319,16 +1334,110 @@ p{
     } */
 
 
-    /*this works at 100% screen */
 
-    /* @media (max-width: 900px){
+    /*Hero component*/
+
+    @media (max-width: 980px){
+        /* .flex_container_hero {
+            width: 100%;
+        } */
 
         .familyHeroImage img{
-    
-        display:none;
-    
+            display:none;
+        }
+
+        .lhs_hero{
+            width: 100%;
+        }
+
+        .first_heading_hero{
+            width: 70%;
+        }
+    }
+
+    @media (max-width:700px) and (min-width: 501px){
+        /* .flex_container_hero {
+            width: 100%;
+        } */
+
+        /* .lhs_hero{
+            width: 100%;
         }
     
+        .first_heading_hero{
+            width: 100%;
+        } */
+    }
+
+    /* Phone Trio */
+
+    @media (min-width:980px){
+        .phone_trio_980_img{
+            display: none
+        }
+    }
+
+    @media (max-width:980px){
+        
+        .flex_container_phone_trio{
+            width:100%
+        }
+        
+        .phone_trio_img{
+            display: none
+        }
+
+        .phone_trio_980_img{
+            display: block
+        }
+
+        .first_heading_hero{
+            font-size:100%;
+        }
+    } 
+
+    /* How Family works */
+
+    @media(max-width:980px){
+        .how_family_works_rows{
+            flex-wrap:wrap;
+            flex-direction: column;
+        }
+       
+       
+
+        .lhs_box_none{
+            order: 2;
+        }
+
+        .rhs_box{
+            order: 1;
+            margin-bottom: 30px;
+        }
+
+        .lhs_box{
+            width:80%;
+            height: auto;
+        }
+
+        .rhs_box{
+            width:80%;
+            height: auto;
+        }
+
+    }
+    
+
+    /* benefits */
+/* 
+    @media(max-width:980px){
+        .flex_container_benefits_rows_and_columns{
+            flex-wrap:wrap;
+            flex-direction: column;
+        }
+
+        
     } */
+    
     
     

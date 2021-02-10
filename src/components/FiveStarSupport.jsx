@@ -12,11 +12,9 @@ function FiveStarSupport () {
                 <div>
                     <h2 className="five_star_support_title"> 5-star support as you'd expect</h2>
                 </div>
-
                 <div>
                     <img className="five_star_support_google_image" src={fivestarsupportgoogle} alt='google5Stars' />
                 </div>
-
                 <div className="five_star_support_p">
                     <p>Not to brag, but our Customer Success team 
                         has been called “absolutely fantastic”, “superb”, 
@@ -36,8 +34,6 @@ function FiveStarSupport () {
                         While you’re at it, why not check out some of our glowing 
                         reviews here.</p>
                 </div>
-
-                
                     <div className="five_star_buttons">
                         <div>
                             <button className="btn1_five_star">I need to create an account</button>
@@ -48,14 +44,8 @@ function FiveStarSupport () {
                         </div>
                     </div>
             </div>   
-
         </div>
-
-
-     
-
     )
-
 }
 
 export default FiveStarSupport; 
