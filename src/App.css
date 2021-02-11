@@ -146,7 +146,7 @@ p{
     height: auto;
     /* margin-left: auto;
     margin-right: auto; */
-    /* border: 3px solid rgb(233, 42, 17); */
+    border: 3px solid rgb(233, 42, 17);
 }
 
 .what_is_family_module_content_container{
@@ -206,16 +206,16 @@ p{
     justify-content: center;
     align-items: center;
     height: auto;
-    /* flex-direction: column; */
-    /* justify-content: space-around;*/
-    /*background-color:#1e0ff0;*/
+    /* width: auto; */
+   
     /* margin: auto 0; */
     /* width: 80%; */
-    /* border: 3px solid rgb(233, 42, 17); */
+    border: 3px solid rgb(233, 42, 17);
 }
 
 .pt_background{
     background: linear-gradient(180deg, #ffffff 30%, #FAFAFA 0%);
+    width: 100%;
 }
 
 .phone_trio_img{
@@ -224,7 +224,6 @@ p{
     margin-left: 70px; */
     /* width: 90%;
     margin-left: 10vw; */
-
     width: 75%;
     margin-left: 15vw;
     max-width: 1080px;
@@ -236,8 +235,9 @@ p{
     display: flex;
     justify-content: center;
     align-content: center;
-    max-width: 100%;
+    /* max-width: 100%; */
     height: auto;
+    /* border: 3px solid rgb(233, 42, 17); */
 }
 
 /* How family works  */
@@ -250,7 +250,7 @@ p{
     padding-bottom: 30px; 
     height: auto;
     /*justify-content: center;*/
-    /* border: 3px solid rgb(103, 233, 17); */
+    border: 3px solid rgb(233, 42, 17);
 }
 
 .hfw_background{
@@ -316,7 +316,8 @@ p{
     background-color: #ffffff;
     border-radius: 30px 30px 30px 30px;
     width: 400px;
-    min-height: 270px;
+    /* min-height: 270px; */
+    height: auto;
     border: 5px solid rgb(252, 252, 252);
     box-shadow: 0px 2px 4px rgb(153 153 153 / 25%);
     padding: 30px 30px 20px 30px; 
@@ -332,16 +333,10 @@ p{
 .lhs_box_none{
     display: flex;
     flex-wrap: wrap;
-    /* padding: 30px; */
-    /* margin-left:80px; */
-    /* margin-left: 60px;
-    margin-right: 50px; */
-
     margin-right: auto;
     margin-left: auto;
     order: 1;
-    
-    /* flex-direction: column; */
+
     /* border: 3px solid rgb(85, 233, 17); */
 }
 
@@ -351,8 +346,8 @@ p{
     background-color: #ffffff;
     border-radius: 30px 30px 30px 30px;
     width: 400px;
-    /* height: 21vh; */
-    min-height: 270px;
+    height: auto;
+    /* min-height: 270px; */
     border: 5px solid rgb(252, 252, 252);
     box-shadow: 0px 2px 4px rgb(153 153 153 / 25%);
     padding: 30px 30px 20px 30px; 
@@ -367,8 +362,10 @@ p{
     display: flex;
     flex-wrap:wrap;
     padding: 30px;
-    /* flex-direction: column; */
+    margin-right: auto;
+    margin-left: auto;
     /*justify-content: space-around;*/
+    /* border: 3px solid rgb(233, 17, 222); */
 }
 
 .icon_title_box_align{
@@ -384,7 +381,8 @@ p{
 
 .icon_title_box{
     max-width: 100%;
-    height: 20px;
+    /* height: 20px; */
+    height: 100%;
     display:flex;
     flex-direction: column;
     margin-bottom: 0;
@@ -410,6 +408,7 @@ p{
     font-size: 14px;
     font-weight:bold;
     padding-top: 20px;
+    /* margin-top:20px; */
     line-height: 1.7em;
     /* line-height: 1.7em; */
 }
@@ -422,6 +421,7 @@ p{
     text-align: left;
     font-size: 14px;
     font-weight:bold;
+    /* padding-top: 20px; */
     /* padding-top: 10px; */
     line-height: 1.7em;
     /* line-height: 1.7em; */
@@ -441,11 +441,13 @@ p{
     flex-direction: column;
     justify-content: center;
     background-color:#F9C174;
-    height: 697px;
+    /* height: 697px; */
+    height: auto;
+    width: 100%;
     padding-top: 54px;
     padding-bottom: 54px;
     /*padding: 50px;*/
-    /* border: 3px solid rgb(102, 47, 255); */
+    border: 3px solid rgb(102, 47, 255);
 }
 
 .benefits_title{ 
@@ -475,6 +477,7 @@ p{
     /* width: 80vw; */
     max-width: 1080px;
     /* height: 500px;  */
+    height: auto;
     /*justify-content: space-evenly;*/
     /* border: 3px solid rgb(212, 247, 13); */
 }
@@ -484,9 +487,7 @@ p{
     flex-direction: column;
     justify-content: space-around;
     /* margin-left: 30px; */
-    
     /* padding-right: 30px; */
-
     /* border: 3px solid rgb(47, 50, 255); */
 } 
 
@@ -554,8 +555,11 @@ p{
     justify-content: center;
     background-color: #a8a5a5;
     width: auto;
-    height: 676px;
+    /* height: 676px; */
+    height: auto;
     /* flex-direction: row; */
+    border: 3px solid rgb(8, 230, 230);
+
 }
 
 .testimonial_content{
@@ -1334,48 +1338,49 @@ p{
     } */
 
 
-
     /*Hero component*/
 
     @media (max-width: 980px){
-        /* .flex_container_hero {
-            width: 100%;
-        } */
+        .flex_container_hero {
+            width: 100%
+        }
 
         .familyHeroImage img{
-            display:none;
+            display:none
         }
 
         .lhs_hero{
-            width: 100%;
+            width: 100%
         }
 
         .first_heading_hero{
-            width: 70%;
+            width: 70%
         }
     }
 
     @media (max-width:700px) and (min-width: 501px){
-        /* .flex_container_hero {
-            width: 100%;
-        } */
+        .flex_container_hero {
+            width: 100%
+        }
 
-        /* .lhs_hero{
-            width: 100%;
+        .lhs_hero{
+            width: 100%
         }
     
         .first_heading_hero{
-            width: 100%;
-        } */
+            width: 100%
+        }
+    }
+
+    /* What is family */
+
+    @media (max-width:980px){
+        .flex_container_what_is_family_module{
+            width: 100%
+        }
     }
 
     /* Phone Trio */
-
-    @media (min-width:980px){
-        .phone_trio_980_img{
-            display: none
-        }
-    }
 
     @media (max-width:980px){
         
@@ -1388,24 +1393,38 @@ p{
         }
 
         .phone_trio_980_img{
-            display: block
+            display:block
         }
 
         .first_heading_hero{
-            font-size:100%;
+            font-size:100%
         }
     } 
 
+    @media (min-width:980px){
+        .phone_trio_980_img{
+            display: none
+        }
+       
+    }
+
     /* How Family works */
 
-    @media(max-width:980px){
+    @media(max-width:993px){
+        .flex_container_how_family_works{
+            width: 100%
+        }
+        
         .how_family_works_rows{
             flex-wrap:wrap;
             flex-direction: column;
+            width: 100%
         }
-       
-       
 
+        .lhs_box{
+            width:80%;
+        }
+    
         .lhs_box_none{
             order: 2;
         }
@@ -1413,31 +1432,48 @@ p{
         .rhs_box{
             order: 1;
             margin-bottom: 30px;
-        }
-
-        .lhs_box{
             width:80%;
-            height: auto;
         }
 
-        .rhs_box{
-            width:80%;
-            height: auto;
+        .rhs_box_none{
+            margin-right: auto;
+            margin-left: auto;
         }
 
+        .p_box_right{
+            padding-top: 20px;
+        }
     }
+
     
 
     /* benefits */
-/* 
+
     @media(max-width:980px){
         .flex_container_benefits_rows_and_columns{
             flex-wrap:wrap;
             flex-direction: column;
         }
 
-        
-    } */
+        .benefits_column_box{
+            width: 80%;  
+        }
+
+        .left_col {
+            padding:0;
+            align-items:center;
+        }
+
+        .mid_col {
+            padding:0;
+            align-items:center;
+        }
+
+        .right_col {
+            padding:0;   
+            align-items:center;  
+        }
+    }
     
     
     
