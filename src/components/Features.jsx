@@ -21,7 +21,7 @@ function Features () {
                 <div className="features_title">
                     <h2>What features does Family include?</h2>          
                 </div>
-                <div className="features_rows">
+                <div className="features_rows_1">
                     <div className="features_box_one">
                         <div className="icon_title_box">
                             <div className="features_icon_title_box_align">
@@ -42,11 +42,11 @@ function Features () {
                             </div>
                         </div>    
                     </div>
-                    <div className="features_rhs_box_none">
+                    <div className="features_rhs_box_one">
                         <img className="care_timeline_phone" src={featuresCarelinePhone} alt="featureCareTimelineImage"/>
                     </div>
                 </div>     
-                <div className="features_rows">
+                <div className="features_rows_2">
                     <div className="features_lhs_box_none">
                         <img className="data_toggle_image" src={featuresDataToggle}  alt="familyHowItWorksRecordsImage"/>
                     </div>
@@ -91,8 +91,8 @@ function Features () {
                             </div>
                         </div>
                     </div>
-                    <div className="features_rhs_box_none">
-                        <img src={featuresInvite} alt="featuresFamilyInvite"/>
+                    <div className="features_rhs_box_three">
+                        <img className="features_invite_image" src={featuresInvite} alt="featuresFamilyInvite"/>
                     </div>
                 </div>  
                 <div className="flex_container_features_buttons"> 
