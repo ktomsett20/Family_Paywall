@@ -1,5 +1,7 @@
 
 import fivestarsupportgoogle from '../Images/5_star_support_google.png';
+import fivestarsupportgooglemobile from '../Images/fivestarsupportgooglemobile.png';
+
 
 // This is the eleventh component and goes under 'DataSecurity'
 // Container a header, and image, text and two buttons at the bottom
@@ -13,7 +15,8 @@ function FiveStarSupport () {
                     <h2 className="five_star_support_title"> 5-star support as you'd expect</h2>
                 </div>
                 <div>
-                    <img className="five_star_support_google_image" src={fivestarsupportgoogle} alt='google5Stars' />
+                    <img className="five_star_support_google_image" src={fivestarsupportgoogle } alt='google5Stars' />
+                    <img className="five_star_support_image_mobile" src={fivestarsupportgooglemobile} alt='google5Stars980' />
                 </div>
                 <div className="five_star_support_p">
                     <p>Not to brag, but our Customer Success team 

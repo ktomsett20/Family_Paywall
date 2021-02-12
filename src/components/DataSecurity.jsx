@@ -23,7 +23,7 @@ function DataSecurity () {
                     </div>
                 </div>
                 <div className="rhs_box_data_secure">
-                    <img src={dataSecurePadlock} alt="dataSecuirtyImage"/>
+                    <img className="data_secure_padlock_img"src={dataSecurePadlock} alt="dataSecuirtyImage"/>
                 </div>
             </div>
         </div> 
