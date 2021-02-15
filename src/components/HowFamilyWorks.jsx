@@ -44,7 +44,7 @@ function HowFamilyWorks (){
                     </div>
                 </div>
                 <div className="rhs_box_none">
-                    <img src={preferencesFamily} alt="familyHowItWorksPreferenceImage"/>
+                    <img className="how_family_works_preference_img" src={preferencesFamily} alt="familyHowItWorksPreferenceImage"/>
                 </div>
             </div>     
             <div className="how_family_works_rows">
@@ -93,7 +93,7 @@ function HowFamilyWorks (){
                     </div>    
                 </div>
                 <div className="rhs_box_none">
-                    <img src={timelineFamily} alt="familyHowItWorksTimelineImage"/>
+                    <img className="how_family_works_timeline_img" src={timelineFamily} alt="familyHowItWorksTimelineImage"/>
                 </div>
             </div>  
         </div>

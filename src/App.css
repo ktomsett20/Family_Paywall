@@ -340,6 +340,8 @@ p{
 .lhs_box_none{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     margin-right: auto;
     margin-left: auto;
     order: 1;
@@ -368,6 +370,8 @@ p{
 .rhs_box_none {
     display: flex;
     flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
     padding: 30px;
     margin-right: auto;
     margin-left: auto;
@@ -440,6 +444,12 @@ p{
     height: 30px;
     margin-right: 15px;
     margin-left: -10px;
+}
+
+.how_family_works_records_img{
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
 }
 
 /* Benefits  */
@@ -1869,36 +1879,48 @@ p{
     }
 }
 
-/* under 500Px phone*/ 
-
-@media(max-width: 500px){
 
 
-}
+/* Under 500px phone */
 
-
-
-
-
-/* Under 400PX phone */
-
-@media(max-width:400px){
-    /* .how_family_works_records_img{
-        width: 95%;
-        align-items: center;
-        border: 3px solid green; 
-    }  */
-
-    .flex_container_how_family_works img{
-        width: 95%;
+@media(max-width:500px){
+    .how_family_works_records_img{
+        width: 80%;
         /* border: 3px solid green;  */
+    } 
 
+    .how_family_works_preference_img{
+        width: 80%;
+        /* border: 3px solid green;  */
     }
 
-    .familyNumBox{
+    .how_family_works_timeline_img{
+        width: 80%;
+        /* border: 3px solid green;  */
+    }
+
+    /* .familyNumBox{
         width:25px !important;
+    } */
+
+    .care_timeline_phone{
+       width: 65%;
+    }
+
+    .data_toggle_image{
+        padding-top:10px;
+        width: 70%;
+    }
+
+    .features_invite_image{
+        padding-top: 20px;
+        width:90%;
     }
 }
+
+
+
+
 
     /* *{
         border:1px solid black;
