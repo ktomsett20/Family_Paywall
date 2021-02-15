@@ -1886,17 +1886,17 @@ p{
 @media(max-width:500px){
     .how_family_works_records_img{
         width: 80%;
-        /* border: 3px solid green;  */
+        border: 3px solid green; 
     } 
 
     .how_family_works_preference_img{
         width: 80%;
-        /* border: 3px solid green;  */
+        border: 3px solid green; 
     }
 
     .how_family_works_timeline_img{
         width: 80%;
-        /* border: 3px solid green;  */
+        border: 3px solid green; 
     }
 
     /* .familyNumBox{
@@ -1905,17 +1905,21 @@ p{
 
     .care_timeline_phone{
        width: 65%;
+       border: 3px solid green;
     }
 
     .data_toggle_image{
         padding-top:10px;
         width: 70%;
+        border: 3px solid green;
     }
 
     .features_invite_image{
         padding-top: 20px;
         width:90%;
+        border: 3px solid green;
     }
+
 }
 
 
