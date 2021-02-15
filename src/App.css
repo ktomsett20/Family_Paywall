@@ -1459,21 +1459,22 @@ p{
 
         }
         .btn1_hero{
-            width: 50vw;
+            width: 60%;
             height: auto;
             font-size:100%;
             justify-content: center;
             text-align: center;
-
+            /* width: 50vw; */
         }  
 
         .btn2_hero{
-            width: 50vw;
+            
+            width:60%;
             height: auto;
             font-size:100%;
             justify-content: center;
             text-align: center;
-
+            /* width: 50vw; */
         }     
         
     }
@@ -1805,7 +1806,7 @@ p{
     }
 }
 
-/* Data Secuirty */ 
+/* Data Security */ 
 
 @media(max-width:980px){
 
@@ -1923,6 +1924,24 @@ p{
         justify-content: center;
         text-align: center;
     }
+
+    .btn1_hero{
+        width: 80%;
+        height: auto;
+        font-size:100%;
+        justify-content: center;
+        text-align: center;
+
+    }  
+
+    .btn2_hero{
+        width: 80%;
+        height: auto;
+        font-size:100%;
+        justify-content: center;
+        text-align: center;
+
+    }     
 
 }
 
