@@ -1572,7 +1572,7 @@ p{
     @media(max-width:980px){
 
         .benefits_title{
-            width: 80%;
+            /* width: 80%; */
             
         }
 
@@ -1880,7 +1880,6 @@ p{
 }
 
 
-
 /* Under 500px phone */
 
 @media(max-width:500px){
@@ -1904,20 +1903,21 @@ p{
     } */
 
     .care_timeline_phone{
-       width: 65%;
-       border: 3px solid green;
+       width: 70%;
+       
+       border: 3px solid rgb(128, 30, 0);
     }
 
     .data_toggle_image{
         padding-top:10px;
-        width: 70%;
-        border: 3px solid green;
+        width: 90%;
+        border: 3px solid rgb(128, 26, 0);
     }
 
     .features_invite_image{
         padding-top: 20px;
         width:90%;
-        border: 3px solid green;
+        border: 3px solid rgb(128, 4, 0);
     }
 
 }
