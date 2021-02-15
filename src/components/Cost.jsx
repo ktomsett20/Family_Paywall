@@ -46,7 +46,7 @@ function Cost () {
                 <div className="cost_right_col">
                     <img className="cost_bill_careservice_image" src={costBillCareservice} alt="billcareserviceImage"/>
                     <h3 className="cost_col_heading_1">Bill to your care service</h3>
-                    <h4 className="cost_col_heading_2">£5(+VAT) for every clients per month</h4>
+                    <h4 className="cost_col_heading_2">£5 (+VAT) for every clients per month</h4>
                     <h4 className="cost_col_heading_3">Paid for by you</h4>
                     <p className="cost_col_p"> Your care service can choose to subscribe 
                     to the Family Module on behalf of the families of your clients for 

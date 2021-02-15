@@ -49,7 +49,7 @@ function HowFamilyWorks (){
             </div>     
             <div className="how_family_works_rows">
                 <div className="lhs_box_none">
-                    <img src={recordsFamily}  alt="familyHowItWorksRecordsImage"/>
+                    <img className="how_family_works_records_img" src={recordsFamily}  alt="familyHowItWorksRecordsImage"/>
                 </div>
                 <div className="rhs_box">
                     <div className="icon_title_box">
